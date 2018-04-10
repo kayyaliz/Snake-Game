@@ -9,15 +9,12 @@ body {
 }
 
 #game-area {
-	margin:0px;
+	margin:0 auto;
 	padding:0px;
+    height: 500px;
+    width: 500px;
 }
 
-#high-score {
-    position: relative;
-    left: 200px;
-    bottom: 50px;
-}
 
 #mode-wrapper {
     color: #ffffff;
@@ -29,13 +26,11 @@ body {
 #game-area:focus { outline: none; }
 
 a.snake-link, a.snake-link:link, a.snake-link:visited {
-/*    color: #FCFC54; */
-    color: darkred;
+  color: #FCFC54;
 }
 
 a.snake-link:hover {
-/*  color: #FfFf54; */
-  color: red;
+  color: #FfFf54; 
 }
 
 .snake-pause-screen {
@@ -60,9 +55,8 @@ a.snake-link:hover {
     font-size: 14px;
     color: #ffffff;
     text-align: center;
-    background-color: #FC5454;
-    padding: 8px;
-    margin: 0px;
+    background-color: darkgrey;
+    margin: 0 auto;
 }
 
 .snake-snakebody-block {
@@ -93,8 +87,8 @@ a.snake-link:hover {
     margin: 0px;
     padding: 0px;
     position: absolute;
-    background-color: #0000A8;
-    border: 0px solid #0000A8;
+    background-color: black;
+    border: 0px solid black;
 }
 
 .snake-game-container {
@@ -103,7 +97,7 @@ a.snake-link:hover {
     border-width: 0px;
     border-style: none;
     zoom: 1;
-    background-color: #FC5454;
+    background-color: darkgrey;
     position: relative;
 }
             
